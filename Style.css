@@ -33,5 +33,6 @@ body {
 #Formulario{
   border: 0!important;
   color: black;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  padding: 10px;
 }
