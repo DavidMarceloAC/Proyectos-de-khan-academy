@@ -8,3 +8,9 @@ body {
   background-image: url(https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=maik-jonietz-_yMciiStJyY-unsplash.jpg);
   background-size: cover;
 }
+
+.card{
+  color: black;
+  border: 0!important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+}
