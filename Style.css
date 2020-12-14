@@ -1,8 +1,10 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 0em;
+  color: white;
 }
-h1 {
-  font-style: italic;
-  color: #373fff;
+.kvr {
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=maik-jonietz-_yMciiStJyY-unsplash.jpg);
+  background-size: cover;
 }
