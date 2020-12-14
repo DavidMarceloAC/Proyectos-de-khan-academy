@@ -2,7 +2,7 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 0em;
   color: white;
-  background-color: gray;
+  background-color: #DADADA;
 }
 .kvr {
   height: 400px;
@@ -10,9 +10,21 @@ body {
   background-size: cover;
 }
 
+.card-img-top{
+  height: 175px;
+}
+
 .card{
   color: white;
   border: 0!important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
-  background-color: black;
+  background-color: gray;
+}
+
+.card-tittle{
+  min-height: 3rem;
+}
+
+.card-text{
+  min-height: 7rem;
 }
