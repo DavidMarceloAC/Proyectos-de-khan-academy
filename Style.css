@@ -11,10 +11,8 @@ body {
   background-size: cover;
 }
 
-
-
 .card-img-top{
-  height: 175px;
+  height: 300px;
 }
 
 .card{
@@ -55,4 +53,10 @@ a:hover {
 a:active {
   background: #265301;
   color: #CDFEAA;
+}
+
+#canvas{
+    border:2px solid #000000;
+    position: center;
+    margin: 2em;
 }
