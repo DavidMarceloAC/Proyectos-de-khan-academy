@@ -11,8 +11,10 @@ body {
   background-size: cover;
 }
 
+
+
 .card-img-top{
-  height: 300px;
+  height: 175px;
 }
 
 .card{
@@ -23,11 +25,11 @@ body {
 }
 
 .card-tittle{
-  min-height: 3rem;
+  min-height: 10rem;
 }
 
 .card-text{
-  min-height: 7rem;
+  min-height: 15rem;
 }
 
 
@@ -46,6 +48,8 @@ a:focus {
 }
 
 a:hover {
+  border-radius: 10px;
+  color: black;
   border-bottom: 1px solid;
   background: #CDFEAA;
 }
@@ -55,8 +59,13 @@ a:active {
   color: #CDFEAA;
 }
 
+
+
+
 #canvas{
-    border:2px solid #000000;
-    position: center;
-    margin: 2em;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 10px #CDFEAA;
+  border:2px solid #000000;
+  position: center;
+  margin: 2em;
 }
