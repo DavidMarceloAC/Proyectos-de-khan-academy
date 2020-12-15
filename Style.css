@@ -11,8 +11,6 @@ body {
   background-size: cover;
 }
 
-
-
 .card-img-top{
   height: 175px;
 }
@@ -29,8 +27,9 @@ body {
 }
 
 .card-text{
-  min-height: 15rem;
+  min-height: 5rem;
 }
+
 
 
 
