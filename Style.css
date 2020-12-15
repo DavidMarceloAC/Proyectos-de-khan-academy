@@ -5,11 +5,15 @@ body {
   background-color: #DADADA;
 }
 
+<!-- estilo de el encabezado -->
+
 .kvr {
   height: 400px;
   background-image: url(https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=maik-jonietz-_yMciiStJyY-unsplash.jpg);
   background-size: cover;
 }
+
+<!-- estilos de cuadros de texto -->
 
 .card-img-top{
   height: 175px;
@@ -30,6 +34,7 @@ body {
   min-height: 7rem;
 }
 
+<!-- estilos de links -->
 
 a:link {
   color: #265301;
