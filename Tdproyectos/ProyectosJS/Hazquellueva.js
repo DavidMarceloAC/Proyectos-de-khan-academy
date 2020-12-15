@@ -2,7 +2,7 @@ var sketchProc = function(processingInstance) {
 
   with (processingInstance) {
 size(700,500);
-background(125, 255, 255);
+background(225, 255, 255);
 
 var xPositions = [random(400)];
 var yPositions = [0];
