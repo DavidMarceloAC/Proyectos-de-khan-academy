@@ -7,27 +7,25 @@ body {
 
 .cover {
   height: 400px;
-  background-image: url(https://miro.medium.com/max/10000/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg);
+  background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80);
   background-size: cover;
   font-family: 'Noto Sans HK', sans-serif;
   background-position: center;
+  color: white;
 }
 
 .card-img-top{
   height: 175px;
 }
-
 .card{
   color: #0059FF ;
   border: 0!important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
-  background-color: black;
+  background-color: #1F1F1F ;
 }
-
 .card-tittle{
   min-height: 10rem;
 }
-
 .card-text{
   min-height: 5rem;
 }
@@ -37,23 +35,19 @@ body {
 a:link {
   color: white;
 }
-
 a:visited {
   color: white;
 }
-
 a:focus {
   border-bottom: 1px solid;
   background: black;
 }
-
 a:hover {
   border-radius: 10px;
   color: white;
   border-bottom: 1px solid;
   background: black;
 }
-
 a:active {
   background: black;
   color: white;
