@@ -11,7 +11,7 @@ body {
   background-size: cover;
   font-family: 'Noto Sans HK', sans-serif;
   background-position: center;
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
   color: white;
 }
