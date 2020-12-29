@@ -13,25 +13,21 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Proyectos
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="Proyectosjs.html">Proyectos JS</a></li>
-              <li><a class="dropdown-item" href="Proyectoshtml.html">Proyectos HTLM</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        </div>
-      </nav>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+          <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+              <li class="navbar-item active">
+                <a href="Proyectoshtml.html" class="nav-link">Proyectos HTML</a>
+              </li>
+              <li class="navbar-item active">
+                <a href="Proyectosjs.html" class="nav-link">Proyectos JS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       <div class="cover d-flex p-2 bd-highlight d-flex justify-content-center d-flex align-items-center flex-column">
         <h1>Proyectos de Khan Academy</h1>
         <p>por David Marcelo Arango Cruz</p>

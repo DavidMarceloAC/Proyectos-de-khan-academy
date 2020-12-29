@@ -14,20 +14,21 @@
   <body>
     <header>
       <!--barra de navegacion-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+          <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+              <li class="navbar-item active">
+                <a href="Index.html" class="nav-link">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Proyectoshtml.html">Proyectos HTML</a>
+              <li class="navbar-item active">
+                <a href="Proyectoshtml.html" class="nav-link">Proyectos HTML</a>
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
       <div class="cover d-flex p-2 bd-highlight d-flex justify-content-center d-flex align-items-center flex-column">
         <h1>Lista de proyectos</h1>
       </div>
