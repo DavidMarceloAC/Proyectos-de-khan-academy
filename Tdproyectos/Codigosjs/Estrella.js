@@ -10,11 +10,12 @@ draw = function() {
     background(0,0,0);
     fill(255, 242, 0);
     ellipse(xPos, yPos, 10, 10);
-    xPos +=3;
-    yPos -=2;
+    xPos +=2;
+    yPos -=3;
+    fill(255,255,255);
     ellipse(xsun, ysun, 50, 50);
-    xsun -= 3;
-    ysun += 2;
+    xsun -= 1;
+    ysun += 0;
 };
 
 
