@@ -35,10 +35,6 @@ for (var i=0; i<400; i+=40){
          image(bush,i,360,40,40);
     }
 }
-
-
-
-
   }
 };
 var canvas = document.getElementById("canvas");
