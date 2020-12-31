@@ -1,7 +1,7 @@
 var sketchProc = function(processingInstance) {
 
   with (processingInstance) {
-size(400,400);
+size(500,500);
 fill(0, 0, 0);
 ellipse(200, 200, 375, 375);
 fill(60, 0, 255);

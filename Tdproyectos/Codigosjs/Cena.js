@@ -1,7 +1,7 @@
 var sketchProc = function(processingInstance) {
 
   with (processingInstance) {
-size(400,400);
+size(700,500);
 background(186, 145, 20); // wooden table
 fill(255, 255, 255);
 ellipse(200, 200, 350, 350); // plate
