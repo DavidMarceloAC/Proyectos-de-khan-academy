@@ -10,8 +10,8 @@ var bodyColor = color (random (255), random(255), random(255));
 noStroke();
 fill(bodyColor);
 // body
-ellipse(centerX, centerY, bodyLength, bodyHeight);
-// tail
+ellipse(centerX, centerY, bodyLength, bodyHeight)
+// tai
 var tailWidth = bodyLength/3;
 var tailHeight = bodyHeight/3;
 triangle(centerX-bodyLength/3, centerY,
