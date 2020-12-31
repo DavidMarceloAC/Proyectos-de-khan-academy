@@ -23,7 +23,7 @@ draw = function() {
 
     fill(0, 0, 0);
     ellipse(a+total/2, b-total/8, total/12, total/12);//ojo
-    
+
 
 };
 
