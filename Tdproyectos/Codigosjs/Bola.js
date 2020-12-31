@@ -1,7 +1,7 @@
 var sketchProc = function(processingInstance) {
 
   with (processingInstance) {
-size(500,500);
+size(400,400);
 fill(0, 0, 0);
 ellipse(200, 200, 375, 375);
 fill(60, 0, 255);
@@ -20,7 +20,6 @@ if (answer === 0) {
     text("Mas suerte la proxima", 140, 229);
 }else if ( answer === 4 ){
     fill(79, 80, 105);
-    text("Aun no", 176,200);
     text("No lo creo", 159, 229);
 }else {
     fill(212, 255, 246);

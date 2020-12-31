@@ -106,11 +106,11 @@ for (var k=0; k < 3; k++){
 
 }
 for (var k=0; k < 3; k++){
-    image(getImage("cute/Star"),44 + k *0 + k*100, 207, 20, 30);
+    image(getImage("../Star"),44 + k *0 + k*100, 207, 20, 30);
 
 }
 for (var k=0; k < 3; k++){
-    image(getImage("cute/Star"),44 + k *-8 + k*108, 327, 20, 30);
+    image(getImage("../Star"),44 + k *-8 + k*108, 327, 20, 30);
 
 }
 }

@@ -1,31 +1,37 @@
 var sketchProc = function(processingInstance) {
 
   with (processingInstance) {
-size(400,400);
-var a = 200;
-var b = 200;
-var total = 100;
+size(600,500);
+background(0, 65, 106);
+var dessinpoisson = function (centerX, centerY, bodyLength, bodyHeight, tailWidth, taiHeight){
 
-draw = function() {
-    background(207, 254, 255);
+var bodyColor = color (random (255), random(255), random(255));
 
-    fill(240, 209, 36);
-        triangle(
-            a-total/1.8,
-            a-total/13.6,
-            a-total/0.9,
-            a+total/1.67,
-            a-total/0.89,
-            a-total/1.5); // cola
-
-
-    ellipse(a, b, total*10/7, total); // Cuerpo
-
-    fill(0, 0, 0);
-    ellipse(a+total/2, b-total/8, total/12, total/12);//ojo
-
-
+noStroke();
+fill(bodyColor);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/3;
+var tailHeight = bodyHeight/3;
+triangle(centerX-bodyLength/3, centerY,
+         centerX-bodyLength/3-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/3-tailWidth, centerY+tailHeight);
+// eye
+fill(0, 0, 0);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
 };
+
+    dessinpoisson (500 , 400 , 50 , 80 , 30 , 40 );
+    dessinpoisson (100 , 100 , 80 , 100 , 60 , 60 );
+    dessinpoisson (240 , 60 , 120 , 80 , 30 , 40 );
+    dessinpoisson (300 , 270 , 100 , 180 , 10 , 40 );
+
+mouseClicked = function () {
+    dessinpoisson (mouseX, mouseY, mouseY, 30, 30);
+};
+
+
 
 
   }
