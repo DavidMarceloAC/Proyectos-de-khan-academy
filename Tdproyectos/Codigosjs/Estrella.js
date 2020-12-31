@@ -2,23 +2,20 @@ var sketchProc = function(processingInstance) {
 
   with (processingInstance) {
 size(400,400);
-
-var xPos = 50;
-var yPos = 50;
-var xPos2 = 350;
-var yPos2 = 50;
-
+var xPos = 100;
+var yPos = 350;
+var xsun = 350;
+var ysun = 50;
 draw = function() {
-    background(29, 40, 115);
+    background(0,0,0);
     fill(255, 242, 0);
     ellipse(xPos, yPos, 10, 10);
-    xPos = +5;
-    yPos = -5;
-    ellipse(yPos2, yPos2, 10, 10);
-    yPos2 -=2;
-    xPos2 +=2;
+    xPos +=3;
+    yPos -=2;
+    ellipse(xsun, ysun, 50, 50);
+    xsun -= 3;
+    ysun += 2;
 };
-
 
 
   }
